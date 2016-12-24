@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width:100%;
+}
+
+body {
+  background: snow;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  background-color:black;
+  width:100%;
+  box-shadow: 2px 2px 10px;
+  overflow: hidden;
+}
+
+header p {
+  letter-spacing: -2px;
+  font-family: Arial;
+  font-weight: 200;
+  font-size: 32px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  color: Crimson;
+  float: left;
+}
+
+nav ul {
+  top: 0px;
+  display: flex;
+  margin: auto;
+  list-style:none;
+  background-color:black;
+  float: right;
+  width: 40%;
+}
+a:link, a:visited {
+  width: 40%;
+  color: snow;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+nav li {
+  padding:11px;
+  width: 100%;
+  border-left: solid 1px snow;
+  /*border-right: solid 1px;*/
+  color:white;
+}
+nav li {
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+nav li:hover {
+  color:white;
+  background-color:crimson;
+}
+nav li:active {
+  transition: 0.1s;
+  color:black;
+}
+
+section.about {
+  top: 50px;
+  height:1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://jpfonw.bn1302.livefilestore.com/y3mpx2Sdc1Xk7DGtHIkJXojZRowjscZ1ZgqG3695JD7nJkD-8-axCQxpu0Yb08B3FGjNOVVdwqaChaMJLPkXHIDnMCBEVzt9EoEGgV8WG2VPTuVLCzl2IPHz8kDu-qRWOt70yLHsXLRVjTq7FF0QnX97rSCNGiPl2bwjG-X_STyX9Y?width=1920&height=1281&cropmode=none);
+}
+
+section.about h2 {
+  font-family: sans-serif;
+}
+
+section.about article {
+  float: right;
+  padding: 20px;
+  color: black;
+  width: 40%;
+  margin: 5% 5%;
+  background-color: brown;
+  border-radius: 30px;
+}
+
+section.portfolio {
+  height: auto;
+  background-color: ivory;
+}
+
+section.portfolio h2 {
+  font-family: Monospace;
+  margin-top: 0px;
+  padding: 40px;
+  text-align: center;
+}
+
+section.portfolio ul {
+  list-style: none;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+section.portfolio img {
+  width: 100%;
+}
+
+section.portfolio li {
+  display: inline-block;
+  padding: 0px;
+  margin: 10%;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  background-color: snow;
+  border-radius: 5px;
+  border: solid 2px black;
+  width: 29%;
+  cursor: pointer;
+}
+
+section.portfolio p {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 2px;
+}
+
+section.contact {
+  height: 450px;
+  background: linear-gradient(darkslategray, #1d3030);
+  color: linen; 
+}
+
+section.contact h2 {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: sans-serif;
+}
+
+section.contact ul {
+  /display: flex;
+  overflow: hidden;
+  
+}
+
+section.contact li {
+  display: block;
+  font-family: monospace;
+  width: 110%;
+  margin: 4%;
+  padding: 10px;
+  border: solid 2px;
+  /border-radius: 10px;
+}
+
+section.contact li:hover {
+  color: brown;
+}
